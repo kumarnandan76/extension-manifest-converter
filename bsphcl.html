@@ -1,0 +1,292 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    BIHAR STATE POWER HOLDING COMPANY LIMITED
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport"content="width=device-width,initial-scale=1">
+<style>
+  /* media quaries view the screen */
+  *{
+    box-sizing: border-box;
+
+  }
+  .column{
+    float:left;
+    width: 25%;
+    padding:20px;
+  }
+  /* clear lfoats after the colomns */
+  .row::after{
+    content:"";
+    display:table;
+    clear:both;
+  }
+  /* on screens that are 992px wide or less , go from four columns to two column */
+  @media screen and (max-width:992px){
+    .column{
+      width: 50px;
+    }
+  }
+  /* On screens that are 6oopx wide or less,. make the colonuns stack on tog insted of tnext to each other */
+  @media screen and (max-width:600px){
+    .column{
+      width: 100px;
+    }
+  
+  }
+  /* new line add*/
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+  }
+.header1{
+  background-image:  
+  text-align: center;
+  padding:23px;
+}
+.topnav{
+  overflow: hidden;
+  background-color: #7e817f;
+}
+.topnav a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 12px 16px;
+
+  text-decoration: none;
+}
+.topnav a:hover{
+  background-color: beige;
+  color:aqua;
+}
+input[type=text],select{
+width:100%;
+padding:12px 20px;
+margin:8px 0px;
+display:inline-block;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing:border-box;
+}
+input[type=submit]{
+width:100%;
+background-color:#4CAF50;
+color:white;
+padding:14px 20px;
+color:14px 20px;
+margin:8px 0;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+input[type=submit]:hover{
+background-color:#45a049;
+}
+div{
+border-radius:9px;
+background-color:#f2f2f2;
+padding:20px;
+}
+input[type=date],select{
+width:100%;
+padding:12px 20px;
+margin:8px 0px;
+display:inline-block;
+border:1px solid rgb(204, 204, 204);
+border-radius:4px;
+box-sizing:border-box;
+}
+input[type=text]:focus{
+    width: 100%;
+    box-sizing:border-box;
+    border:2px solid #ccc;
+    border-radius:4px;
+    background-color:white;
+    background-image:url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding:12px 20px 12px 40px;
+    
+}
+
+
+    
+    input[type=text1] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #d46161;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgb(208, 212, 208);
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text1]:focus{
+    width:100%;
+
+}
+// Styling textarea//
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 40px;
+  background-color: #f8f8f8;
+  font-size: 30px;
+  resize: none;
+}
+input[type=button]{
+  background-color: #0404aa;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+/ * Respinsive layout  - when teh screen is less thean 800px wide , ake the stack on fo each other insted of next t each other */
+@media screen and (max-width:800px){
+  .leftcolumn,.rightcolumn{
+    width:100%;
+    padding:0;
+
+  }
+}
+@media  screen and (max-width:400px) {
+  .topnav a{
+    float: none;
+    width:100;
+  
+  }
+  
+}
+/* this is a pagination form */
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition:1px solid #ddd;
+  margin:0 4px;
+}
+.pagination a.active{
+background-color: #0404aa;
+color:white;
+border:1px solid #7e817f;
+    }
+    .pagination a:hover:not(.active)
+    {background-color: #ddd;}
+</style>
+</head>
+
+<body>
+  <div class="header1">
+    <img url="C:\Users\rites_miaj6a7\OneDrive\Desktop\css\bulb.webp" alt="bulb" width="1560px" height="400px">BSPHCL
+    <p> WELCOME TO BIHAR STATE POWER HOLDING COMPANY LTD.</p>
+    
+  </div>
+  <div class="topnav">
+<div class="logout">
+  
+    <a href="Home",input type="button"value="Home">Home</a>
+    <a href="Contact",input type="button"value="Contact">Contact</a>
+    <a href="Address Info",input type="button"value="Address Info">Address Info</a>
+    <a href="Consumer Info",input type="button"value="Consumer Info">Consumer Info</a>
+  <a href="b"style="float:right">LOGOUT</a>
+  <div class="logout"style="height: 18px;"></div>
+  </div><br><br>
+<form1>
+    <input type="text1"name="search"placeholder="Search..">
+</form1>
+<h3>Consumer Registration Form</h3>
+
+<form action="/action_page.php">
+<label for="fname">First Name</label>
+<input type="text"id="fname"name="firstname"placeholder="your name..">
+<label for="lname">Last Name</label>
+<input type="text"id="lname" name="lastname"placeholder="Your last name..">
+<label for="Email">Enter your email</label>
+<input type="text"id="Email"name="EmailAddress"placeholder="Enter your email..">
+<label for="Mobile">Enter your phone number</label>
+<input type="text"id="Mobile"name="PhneNumber"placeholder="Enter your Phone number..">
+<label for ="birthday">Enter your date of birth:</label>
+<input type="date"id="birthday"name="birthday" placeholder="dd-mm-yyy">
+<label for="state">Enter Your State</label>
+<select id="state"name="State">
+    <option value="Bihar">Bihar</option>
+    <option value="Gujrat">Gujrat</option>
+    <option value="Maharastra">Maharastra</option>
+    <option value="Asam">Asam</option>
+    </select>
+<label for ="country">Country</label>
+<select id="country"name="country">
+<option value="australia">Australia</option>
+<option value="canada">Canada</option>
+<option value="india">India</option>
+<option value="china"> China</option>
+<option value="patna">Patna</patna>
+
+
+    <form>
+        <textarea>About your self...</textarea>
+      </form>
+      
+<input type="submit"value="submit">
+<div class="row">
+  <div class="column" style="background-color:#aaaa;">
+    <h>column 1</h>
+    <p> Some text...</p>
+  </div>
+    <div class="column" style="background-color:#bbbb;">
+      <h>column 2</h>
+      <p> Some text...</p>
+    </div>
+      <div class="column" style="background-color:#ccc;">
+        <h>column 3</h>
+        <p> Some text...</p>
+      </div>
+        <div class="column" style="background-color:#7e817f;">
+          <h>column 4</h>
+          <p> Some text...</p>
+        </div>
+<h2>Skip the form and move the one page to another page</h2>
+<div class="center">
+    
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#"class="active">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+  
+</div>
+</form>
+</div>
+
+</body>
+</html>
